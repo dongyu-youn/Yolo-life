@@ -25,7 +25,7 @@ class Room(CommonModel):
     )
     price = models.PositiveIntegerField()
     rooms = models.PositiveIntegerField()
-   
+    toilets = models.PositiveIntegerField()
     description = models.TextField()
     address = models.CharField(
         max_length=250,
